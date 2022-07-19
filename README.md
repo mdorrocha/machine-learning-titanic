@@ -34,21 +34,21 @@ Este projeto tem por objetivo prever a situação dos passageiros (sobrevivente 
 
 Foram disponibilizados 2 bases (treino e teste). As seguintes análises foram feitas:
 
-* Foi criado a variável Título a partir do título contido no começo do nome dos passageiros
+:heavy_check_mark: foi criado a variável Título a partir do título contido no começo do nome dos passageiros
 
-* PassengerId, Name e Ticket foram deletados por conter valores únicos
+:heavy_check_mark: PassengerId, Name e Ticket foram deletados por conter valores únicos
 
-* Cabin foi deletada por possuir a maioria dos valores nulos
+:heavy_check_mark: Cabin foi deletada por possuir a maioria dos valores nulos
 
-* Foi criada a variável Familiares a partir da soma das variáveis SibSp e Parch. Depois estas duas foram deletadas.
+:heavy_check_mark: Foi criada a variável Familiares a partir da soma das variáveis SibSp e Parch. Depois estas duas foram deletadas.
 
-* Os valores nulos em Age foram preenchidos considerando a média das categorias em Título
+:heavy_check_mark: Os valores nulos em Age foram preenchidos considerando a média das categorias em Título
 
-* Foram criadas faixa de valores em Age e Fare
+:heavy_check_mark: Foram criadas faixa de valores em Age e Fare
 
-* Foram testados dois modelos de Machine Learning (DecisionTreeClassifier e RandomForestClassifier)
+:heavy_check_mark: Foram testados dois modelos de Machine Learning (DecisionTreeClassifier e RandomForestClassifier)
 
-* Escolhido o melhor modelo e otimizá-lo
+:heavy_check_mark: Escolhido o melhor modelo e otimizado
 
 # Tecnologias utilizadas
 
